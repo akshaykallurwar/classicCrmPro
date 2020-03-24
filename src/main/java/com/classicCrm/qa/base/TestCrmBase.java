@@ -5,6 +5,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
@@ -16,7 +17,10 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
+import org.testng.asserts.SoftAssert;
+
 import com.classicCrm.qa.listeners.WebEventListener;
+import com.classicCrm.qa.util.TestUtil;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -26,7 +30,8 @@ public class TestCrmBase
 	public static Properties prop;
 	public static EventFiringWebDriver e_driver;
 	public static WebEventListener eventListener;
-	public String browserName;
+	public static SoftAssert softAssert;
+	public static String browserName;
 	public static String userDirectory;
 	
 	
@@ -47,7 +52,7 @@ public class TestCrmBase
 		}
 	}
 	
-	public void browserInitialization()
+	public static void browserInitialization()
 	{	
 		browserName = prop.getProperty("browser");
 		if(browserName.equals("chrome"))
@@ -76,6 +81,17 @@ public class TestCrmBase
 		{
 			System.out.println("Invalid browserName is present in propertis file");
 		}
+		
+		e_driver = new EventFiringWebDriver(driver);
+		eventListener = new WebEventListener();
+		e_driver.register(eventListener);
+		driver = e_driver;
+		driver.manage().window().maximize();
+		driver.manage().deleteAllCookies();
+		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGELOAD_TIMEOUT, TimeUnit.SECONDS);
+		driver.get(prop.getProperty("url"));
+		
 	}
 	
 	public void failedForScreenshot(String methodName)
