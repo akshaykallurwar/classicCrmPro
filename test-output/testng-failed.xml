@@ -6,7 +6,8 @@
       <class name="com.classicCrm.qa.test.LoginPageClassicCrmTest">
         <methods>
           <include name="setUp"/>
-          <include name="validateLoginPageLinksTest"/>
+          <include name="validateLoginPageTitleTest"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- com.classicCrm.qa.test.LoginPageClassicCrmTest -->
     </classes>

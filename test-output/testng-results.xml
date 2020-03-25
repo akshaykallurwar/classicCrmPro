@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12606" started-at="2020-03-24T10:21:52Z" finished-at="2020-03-24T10:22:04Z">
+  <suite name="Default suite" duration-ms="33627" started-at="2020-03-25T07:34:30Z" finished-at="2020-03-25T07:35:04Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12606" started-at="2020-03-24T10:21:52Z" finished-at="2020-03-24T10:22:04Z">
+    <test name="Default test" duration-ms="33627" started-at="2020-03-25T07:34:30Z" finished-at="2020-03-25T07:35:04Z">
       <class name="com.classicCrm.qa.test.LoginPageClassicCrmTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.classicCrm.qa.test.LoginPageClassicCrmTest@1a968a59]" name="setUp" is-config="true" duration-ms="10409" started-at="2020-03-24T15:51:52Z" finished-at="2020-03-24T15:52:02Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.classicCrm.qa.test.LoginPageClassicCrmTest@6a192cfe]" name="setUp" is-config="true" duration-ms="9314" started-at="2020-03-25T13:04:30Z" finished-at="2020-03-25T13:04:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateLoginPageLinksTest()[pri:1, instance:com.classicCrm.qa.test.LoginPageClassicCrmTest@1a968a59]" name="validateLoginPageLinksTest" duration-ms="1429" started-at="2020-03-24T15:52:02Z" finished-at="2020-03-24T15:52:04Z">
+        <test-method status="PASS" signature="validateLoginFunctionalityTest()[pri:3, instance:com.classicCrm.qa.test.LoginPageClassicCrmTest@6a192cfe]" name="validateLoginFunctionalityTest" duration-ms="23047" started-at="2020-03-25T13:04:39Z" finished-at="2020-03-25T13:05:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateLoginPageLinksTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.classicCrm.qa.test.LoginPageClassicCrmTest@1a968a59]" name="tearDown" is-config="true" duration-ms="740" started-at="2020-03-24T15:52:04Z" finished-at="2020-03-24T15:52:04Z">
+        </test-method> <!-- validateLoginFunctionalityTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.classicCrm.qa.test.LoginPageClassicCrmTest@6a192cfe]" name="tearDown" is-config="true" duration-ms="1240" started-at="2020-03-25T13:05:02Z" finished-at="2020-03-25T13:05:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

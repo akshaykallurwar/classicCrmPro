@@ -18,6 +18,11 @@ public class TestUtil extends TestCrmBase
 	public static long PAGELOAD_TIMEOUT =30;
 	public static long EXPLICIT_WAIT =30;
 	
+	public static void switchToFrame()
+	{
+		driver.switchTo().frame("mainpanel");
+	}
+	
 	
 	public static void takeErrorScreenshotAtEndOfTest()
 	{

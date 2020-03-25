@@ -71,6 +71,21 @@ public class LoginPageClassicCrm extends TestCrmBase
 		return isValidLogin;
 	}
 	
+	public String validateLoginPageTitle()
+	{
+		String loginPageTitle = driver.getTitle();
+		return loginPageTitle;
+	}
+	
+	public HomePageClassicCrm validateLoginFunctionality(String un,String pass)
+	{
+		usernameTextBox.sendKeys(un);
+		passwordTextBox.sendKeys(pass);
+		TestUtil.clickElementsByJavaScript(loginButton);
+		return new HomePageClassicCrm();
+		
+	}
+	
 	
 	
 	
