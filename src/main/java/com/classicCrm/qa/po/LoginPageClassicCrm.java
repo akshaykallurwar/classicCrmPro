@@ -5,9 +5,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.classicCrm.qa.base.TestCrmBase;
-import com.classicCrm.qa.util.TestUtil;
-import com.relevantcodes.extentreports.model.Test;
-
+import com.classicCrm.qa.util.TestUtil;;
 public class LoginPageClassicCrm extends TestCrmBase
 {
 	public boolean isValidLogin;

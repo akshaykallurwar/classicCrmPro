@@ -5,6 +5,8 @@
 	<test name="ClassicCRM application test cases">
 		<classes>
 			<class name="com.classicCrm.qa.test.LoginPageClassicCrmTest" />
+			<class name="com.classicCrm.qa.test.HomePageClassicCrmTest" />
+			<class name="com.classicCrm.qa.test.ContactsPageClassicCrmTest" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

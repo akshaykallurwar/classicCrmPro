@@ -7,13 +7,18 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.events.WebDriverEventListener;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import com.classicCrm.qa.util.TestUtil;
 
 public class WebEventListener implements WebDriverEventListener 
 {
+	//Logger logger = LoggerFactory.getLogger(WebEventListener.class);
 
 	public void beforeNavigateTo(String url, WebDriver driver) {
 		System.out.println("Before navigating to: '" + url + "'");
+		//logger.info("Before navigating to: '" + url + "'");
 	}
 
 	public void afterNavigateTo(String url, WebDriver driver) {
