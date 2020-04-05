@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Classic CRM application test suite]">
+  <listeners>
+    <listener class-name="com.classicCrm.qa.listeners.ExtentReporterNgClassicCrm"/>
+    <listener class-name="com.classicCrm.qa.listeners.TransformerClassicCrm"/>
+  </listeners>
+  <test name="ClassicCRM application test cases(failed)">
+    <classes>
+      <class name="com.classicCrm.qa.test.HomePageClassicCrmTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.classicCrm.qa.test.HomePageClassicCrmTest -->
+      <class name="com.classicCrm.qa.test.ContactsPageClassicCrmTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.classicCrm.qa.test.ContactsPageClassicCrmTest -->
+      <class name="com.classicCrm.qa.test.CreateNewContactPageClassicCrmTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.classicCrm.qa.test.CreateNewContactPageClassicCrmTest -->
+      <class name="com.classicCrm.qa.test.CreateNewDealsPageClassicCrmTest">
+        <methods>
+          <include name="validateCreateNewDealTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.classicCrm.qa.test.CreateNewDealsPageClassicCrmTest -->
+      <class name="com.classicCrm.qa.test.CreatedDealVerificationPageClassicCrmTest">
+        <methods>
+          <include name="validateHeaderLinksPresentTest"/>
+          <include name="setUp"/>
+          <include name="createdDealNumberMatchTest"/>
+        </methods>
+      </class> <!-- com.classicCrm.qa.test.CreatedDealVerificationPageClassicCrmTest -->
+      <class name="com.classicCrm.qa.test.LoginPageClassicCrmTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.classicCrm.qa.test.LoginPageClassicCrmTest -->
+    </classes>
+  </test> <!-- ClassicCRM application test cases(failed) -->
+</suite> <!-- Failed suite [Classic CRM application test suite] -->

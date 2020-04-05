@@ -5,15 +5,18 @@ import static org.testng.Assert.assertTrue;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.classicCrm.qa.base.TestCrmBase;
+import com.classicCrm.qa.listeners.CustomClassicCrmListener;
 import com.classicCrm.qa.po.CreateNewDealsPageClassicCrm;
 import com.classicCrm.qa.po.CreatedDealVerificationPageClassicCrm;
 import com.classicCrm.qa.po.HomePageClassicCrm;
 import com.classicCrm.qa.po.LoginPageClassicCrm;
 import com.classicCrm.qa.util.TestUtil;
 
+@Listeners(CustomClassicCrmListener.class)
 public class CreatedDealVerificationPageClassicCrmTest extends TestCrmBase 
 {
 	LoginPageClassicCrm loginPageObj;
@@ -42,7 +45,7 @@ public class CreatedDealVerificationPageClassicCrmTest extends TestCrmBase
 		homePageObj = new HomePageClassicCrm();
 		createNewDealObj = new CreateNewDealsPageClassicCrm();
 		createdDealObj = new CreatedDealVerificationPageClassicCrm();
-		homePageObj = loginPageObj.validateLoginFunctionality(prop.getProperty("username"), prop.getProperty("password"));
+		homePageObj = loginPageObj.validateLoginFunctionality(configProp.getProperty("username"), configProp.getProperty("password"));
 		createNewDealObj = homePageObj.clickOnNewDealsLink();
 		
 	}

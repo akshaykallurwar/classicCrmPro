@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.classicCrm.qa.test.CreatedDealVerificationPageClassicCrmTest">
+      <class name="com.classicCrm.qa.test.CreateNewDealsPageClassicCrmTest">
         <methods>
-          <include name="validateHeaderLinksPresentTest"/>
+          <include name="validateCreateNewDealTest"/>
           <include name="setUp"/>
-          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.classicCrm.qa.test.CreatedDealVerificationPageClassicCrmTest -->
+      </class> <!-- com.classicCrm.qa.test.CreateNewDealsPageClassicCrmTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

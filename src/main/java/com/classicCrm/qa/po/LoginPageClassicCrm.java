@@ -2,6 +2,7 @@ package com.classicCrm.qa.po;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
 import com.classicCrm.qa.base.TestCrmBase;
@@ -24,12 +25,14 @@ public class LoginPageClassicCrm extends TestCrmBase
 	WebElement customersLink;
 	@FindBy(linkText = "Contact")
 	WebElement contactLink;
-	@FindBy(name="username")
+	@FindBy(how=How.NAME,using="username")//using how
 	WebElement usernameTextBox;
 	@FindBy(name = "password")
 	WebElement passwordTextBox;
 	@FindBy(xpath = "//input[@type='submit' and @value='Login']")
 	WebElement loginButton;
+	
+	
 	
 	//Initializing page factory using initElements() method
 	public LoginPageClassicCrm() 

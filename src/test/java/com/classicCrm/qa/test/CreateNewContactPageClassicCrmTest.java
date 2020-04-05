@@ -2,14 +2,17 @@ package com.classicCrm.qa.test;
 
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.classicCrm.qa.base.TestCrmBase;
+import com.classicCrm.qa.listeners.CustomClassicCrmListener;
 import com.classicCrm.qa.po.ContactsPageClassicCrm;
 import com.classicCrm.qa.po.CreateNewContactPageClassicCrm;
 import com.classicCrm.qa.po.HomePageClassicCrm;
 import com.classicCrm.qa.po.LoginPageClassicCrm;;
 
+@Listeners(CustomClassicCrmListener.class)
 public class CreateNewContactPageClassicCrmTest extends TestCrmBase
 {
 	LoginPageClassicCrm loginPage;
@@ -31,7 +34,7 @@ public class CreateNewContactPageClassicCrmTest extends TestCrmBase
 		homePage = new HomePageClassicCrm();
 		contactsPage = new ContactsPageClassicCrm();
 		createNewContactPage = new CreateNewContactPageClassicCrm();
-		loginPage.validateLoginFunctionality(prop.getProperty("username"), prop.getProperty("password"));
+		loginPage.validateLoginFunctionality(configProp.getProperty("username"), configProp.getProperty("password"));
 		homePage.clickOnContactsLink();
 		createNewContactPage = contactsPage.clickOnNewContactButton();
 		

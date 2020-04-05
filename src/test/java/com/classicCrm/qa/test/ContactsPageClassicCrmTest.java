@@ -4,12 +4,15 @@ import static org.testng.Assert.assertTrue;
 
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import com.classicCrm.qa.base.TestCrmBase;
+import com.classicCrm.qa.listeners.CustomClassicCrmListener;
 import com.classicCrm.qa.po.ContactsPageClassicCrm;
 import com.classicCrm.qa.po.HomePageClassicCrm;
 import com.classicCrm.qa.po.LoginPageClassicCrm;;
 
+@Listeners(CustomClassicCrmListener.class)
 public class ContactsPageClassicCrmTest extends TestCrmBase
 {
 	LoginPageClassicCrm loginPage;
@@ -28,7 +31,7 @@ public class ContactsPageClassicCrmTest extends TestCrmBase
 		loginPage = new LoginPageClassicCrm();
 		homePage = new HomePageClassicCrm();
 		contactsPage = new ContactsPageClassicCrm();
-		homePage = loginPage.validateLoginFunctionality(prop.getProperty("username"), prop.getProperty("password"));
+		homePage = loginPage.validateLoginFunctionality(configProp.getProperty("username"), configProp.getProperty("password"));
 		homePage.clickOnContactsLink();	
 	}
 	

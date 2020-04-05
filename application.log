@@ -1,0 +1,5 @@
+2020-04-05 22:30:14,037  INFO [main] TestCrmBase:78 - launching chrome browser
+2020-04-05 22:30:18,568  INFO [main] TestCrmBase:111 - entering application url
+2020-04-05 22:30:18,568  WARN [main] TestCrmBase:112 - This is just a warning message
+2020-04-05 22:30:18,569 FATAL [main] TestCrmBase:113 - This is just a fatal error message
+2020-04-05 22:30:18,569 DEBUG [main] TestCrmBase:114 - This is a debug message

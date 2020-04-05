@@ -2,13 +2,18 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Classic CRM application test suite">
 
+	<listeners>
+		<listener class-name="com.classicCrm.qa.listeners.ExtentReporterNgClassicCrm"/>
+		<listener class-name="com.classicCrm.qa.listeners.TransformerClassicCrm"/>
+	</listeners>
+
 	<test name="ClassicCRM application test cases">
 		<classes>
 			<class name="com.classicCrm.qa.test.LoginPageClassicCrmTest" />
 			<class name="com.classicCrm.qa.test.HomePageClassicCrmTest" />
 			<class name="com.classicCrm.qa.test.ContactsPageClassicCrmTest" />
-			<class name="com.classicCrm.qa.test.CreateNewDealsPageClassicCrmTest" />
 			<class name="com.classicCrm.qa.test.CreateNewContactPageClassicCrmTest" />
+			<class name="com.classicCrm.qa.test.CreateNewDealsPageClassicCrmTest" />
 			<class name="com.classicCrm.qa.test.CreatedDealVerificationPageClassicCrmTest" />
 		</classes>
 	</test> <!-- Test -->
