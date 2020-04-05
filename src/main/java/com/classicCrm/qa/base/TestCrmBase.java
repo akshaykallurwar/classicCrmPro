@@ -8,8 +8,6 @@ import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
-import org.apache.commons.logging.impl.Log4JLogger;
-import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.OutputType;
@@ -24,7 +22,6 @@ import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.testng.asserts.SoftAssert;
 
 import com.classicCrm.qa.listeners.WebEventListener;
-import com.classicCrm.qa.test.LoginPageClassicCrmTest;
 import com.classicCrm.qa.util.TestUtil;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
