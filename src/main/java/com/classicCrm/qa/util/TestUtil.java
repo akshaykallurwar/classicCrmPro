@@ -12,6 +12,7 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.OutputType;
@@ -61,11 +62,12 @@ public class TestUtil extends TestCrmBase
 		}	
 	}
 	
-	public static void clickElementsByJavaScript(WebElement element)
-	{
-		JavascriptExecutor js = (JavascriptExecutor)driver;
-		js.executeScript("arguments[0].click();", element);
-	}
+	
+	
+	/*Wait wait = new FluentWait(WebDriver reference)
+			.withTimeout(timeout, SECONDS)
+			.pollingEvery(timeout, SECONDS)
+			.ignoring(Exception.class);*/
 	
 	public static boolean isElementPresent(WebElement element)
 	{
@@ -302,6 +304,99 @@ public class TestUtil extends TestCrmBase
 		return data;
 		
 	}
+	
+	
+	//Javascriptexecutor methods
+	
+	//highlight a WebElement (By flasing it using flashElementByJs and changeColorByJs methods below)
+	public static void flashElementByJs(WebElement element, WebDriver driver)
+	{
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		String bgColor = element.getCssValue("backgroundColor");
+		for(int i=0;i<5;i++)
+		{
+			changeColorByJs("rgb(0,200,0)", element, driver);//1
+			changeColorByJs(bgColor, element, driver);//2
+		}
+		
+	}
+	
+	//to change the color of WebElement
+	public static void changeColorByJs(String color,WebElement element,WebDriver driver)
+	{
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		js.executeScript("arguments[0].style.backgroundColor='"+color+"'", element);
+	}
+	
+	//to draw a border around a WebElement
+	public static void drawBorderByJs(WebElement element,WebDriver driver)
+	{
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		js.executeScript("arguments[0].style.border = '3px solid red'", element);
+	}
+	
+	//to generate JavaScript alert
+	public static void generateAlertByJs(WebDriver driver,String alertMessage)
+	{
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		js.executeScript("alert('"+alertMessage+"')");
+		Alert alert = driver.switchTo().alert();
+		alert.accept();
+		String alertMessageDisplayed = alert.getText();
+		logger.info(alertMessageDisplayed);
+		logger.info("alert message was accepted");
+	}
+	
+	//to click on a WebElement
+	public static void clickElementsByJavaScript(WebElement element)
+	{
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		js.executeScript("arguments[0].click();", element);
+	}
+	
+	//to refresh the browser using JavascriptExecutor
+	public static void refreshBrowserByJs(WebDriver driver)
+	{
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		js.executeScript("history.go(0)");
+	}
+	
+	//to get the title of the page using JavascriptExecutor
+	public static String getPageTitleByJs(WebDriver driver)
+	{
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		String pageTitle = js.executeScript("return document.title;").toString();
+		return pageTitle;
+	}
+	
+	//to get inner text of Web Page using JavascriptExecutor
+	public static String getInnerTextByJs(WebDriver driver)
+	{
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		String innerText = js.executeScript("return document.documentElement.innerText;").toString();
+		return innerText;
+		
+	}
+	
+	//to scroll down till the bottom of the page using JavascriptExecutor
+	public static void scrollPageDownByJs(WebDriver driver)
+	{
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		js.executeScript("window.scrollTo(0,document.body.scrollHeight)");
+	}
+
+	//to scroll down into the page till the required WebElement is visible using JavascriptExecutor
+	public static void scrollUntilVisibleByJs(WebElement element,WebDriver driver)
+	{
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		js.executeScript("arguments[0].scrollIntoView(true);", element);
+	}
+	
+	
+	
+	
+	
+	
 	
 	}
 

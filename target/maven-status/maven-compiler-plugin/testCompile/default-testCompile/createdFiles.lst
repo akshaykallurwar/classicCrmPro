@@ -1,0 +1,6 @@
+com\classicCrm\qa\test\CreateNewContactPageClassicCrmTest.class
+com\classicCrm\qa\test\HomePageClassicCrmTest.class
+com\classicCrm\qa\test\CreatedDealVerificationPageClassicCrmTest.class
+com\classicCrm\qa\test\ContactsPageClassicCrmTest.class
+com\classicCrm\qa\test\LoginPageClassicCrmTest.class
+com\classicCrm\qa\test\CreateNewDealsPageClassicCrmTest.class

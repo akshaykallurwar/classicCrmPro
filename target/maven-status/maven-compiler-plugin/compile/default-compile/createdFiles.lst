@@ -1,0 +1,15 @@
+com\classicCrm\qa\po\HomePageClassicCrm.class
+com\classicCrm\qa\po\LoginPageClassicCrm.class
+com\classicCrm\qa\po\CreateNewContactPageClassicCrm.class
+com\classicCrm\qa\po\CreateNewDealsPageClassicCrm.class
+com\classicCrm\qa\util\TestUtil.class
+com\classicCrm\qa\base\TestCrmBase.class
+com\classicCrm\qa\listeners\RetryAnalyzerClassicCrm.class
+com\classicCrm\qa\po\ContactsPageClassicCrm.class
+com\classicCrm\qa\po\CreatedDealVerificationPageClassicCrm.class
+com\classicCrm\qa\listeners\TransformerClassicCrm.class
+com\classicCrm\qa\listeners\CustomClassicCrmListener.class
+com\classicCrm\qa\listeners\ExtentReporterNgClassicCrm.class
+com\classicCrm\qa\po\DealsPageClassicCrm.class
+com\classicCrm\qa\listeners\WebEventListener.class
+com\classicCrm\qa\po\TasksPageClassicCrm.class

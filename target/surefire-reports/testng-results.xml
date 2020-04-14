@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="18" passed="18">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Classic CRM application test suite" duration-ms="432581" started-at="2020-04-05T19:18:52Z" finished-at="2020-04-05T19:26:05Z">
+    <groups>
+    </groups>
+    <test name="ClassicCRM application test cases" duration-ms="432581" started-at="2020-04-05T19:18:52Z" finished-at="2020-04-05T19:26:05Z">
+      <class name="com.classicCrm.qa.test.CreateNewDealsPageClassicCrmTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.classicCrm.qa.test.CreateNewDealsPageClassicCrmTest@6cc4c815]" name="setUp" is-config="true" duration-ms="22196" started-at="2020-04-06T00:53:04Z" finished-at="2020-04-06T00:53:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateCreateNewDealTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.classicCrm.qa.test.CreateNewDealsPageClassicCrmTest@6cc4c815]" name="validateCreateNewDealTest" duration-ms="3819" started-at="2020-04-06T00:53:26Z" data-provider="getCreateNewDealTestData" finished-at="2020-04-06T00:53:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Consumer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CTS]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Manager]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[mess]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Led]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[New]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Online]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[human]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[mail]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[validation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewDealTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.classicCrm.qa.test.CreateNewDealsPageClassicCrmTest@6cc4c815]" name="tearDown" is-config="true" duration-ms="652" started-at="2020-04-06T00:53:30Z" finished-at="2020-04-06T00:53:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.classicCrm.qa.test.CreateNewDealsPageClassicCrmTest@6cc4c815]" name="setUp" is-config="true" duration-ms="40379" started-at="2020-04-06T00:53:31Z" finished-at="2020-04-06T00:54:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateCreateNewDealTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.classicCrm.qa.test.CreateNewDealsPageClassicCrmTest@6cc4c815]" name="validateCreateNewDealTest" duration-ms="3970" started-at="2020-04-06T00:54:11Z" data-provider="getCreateNewDealTestData" finished-at="2020-04-06T00:54:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Client]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TCS]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SA]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[85]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[hostel]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[pants]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Old]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Partner]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[devil]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[post]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[verification]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewDealTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.classicCrm.qa.test.CreateNewDealsPageClassicCrmTest@6cc4c815]" name="tearDown" is-config="true" duration-ms="678" started-at="2020-04-06T00:54:15Z" finished-at="2020-04-06T00:54:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.classicCrm.qa.test.CreateNewDealsPageClassicCrmTest -->
+      <class name="com.classicCrm.qa.test.HomePageClassicCrmTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.classicCrm.qa.test.HomePageClassicCrmTest@23ceabc1]" name="setUp" is-config="true" duration-ms="17201" started-at="2020-04-06T00:49:37Z" finished-at="2020-04-06T00:49:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateHomePageTitleTest()[pri:1, instance:com.classicCrm.qa.test.HomePageClassicCrmTest@23ceabc1]" name="validateHomePageTitleTest" duration-ms="41" started-at="2020-04-06T00:49:54Z" finished-at="2020-04-06T00:49:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.classicCrm.qa.test.HomePageClassicCrmTest@23ceabc1]" name="tearDown" is-config="true" duration-ms="1241" started-at="2020-04-06T00:49:54Z" finished-at="2020-04-06T00:49:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.classicCrm.qa.test.HomePageClassicCrmTest@23ceabc1]" name="setUp" is-config="true" duration-ms="18036" started-at="2020-04-06T00:49:55Z" finished-at="2020-04-06T00:50:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateLoggedInUserLabelTest()[pri:2, instance:com.classicCrm.qa.test.HomePageClassicCrmTest@23ceabc1]" name="validateLoggedInUserLabelTest" duration-ms="178" started-at="2020-04-06T00:50:13Z" finished-at="2020-04-06T00:50:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoggedInUserLabelTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.classicCrm.qa.test.HomePageClassicCrmTest@23ceabc1]" name="tearDown" is-config="true" duration-ms="665" started-at="2020-04-06T00:50:13Z" finished-at="2020-04-06T00:50:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.classicCrm.qa.test.HomePageClassicCrmTest@23ceabc1]" name="setUp" is-config="true" duration-ms="16174" started-at="2020-04-06T00:50:14Z" finished-at="2020-04-06T00:50:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateclickOnContactsLinkTest()[pri:3, instance:com.classicCrm.qa.test.HomePageClassicCrmTest@23ceabc1]" name="validateclickOnContactsLinkTest" duration-ms="43" started-at="2020-04-06T00:50:30Z" finished-at="2020-04-06T00:50:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateclickOnContactsLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.classicCrm.qa.test.HomePageClassicCrmTest@23ceabc1]" name="tearDown" is-config="true" duration-ms="653" started-at="2020-04-06T00:50:30Z" finished-at="2020-04-06T00:50:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.classicCrm.qa.test.HomePageClassicCrmTest@23ceabc1]" name="setUp" is-config="true" duration-ms="15993" started-at="2020-04-06T00:50:31Z" finished-at="2020-04-06T00:50:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateclickOnDealsLinkTest()[pri:4, instance:com.classicCrm.qa.test.HomePageClassicCrmTest@23ceabc1]" name="validateclickOnDealsLinkTest" duration-ms="81" started-at="2020-04-06T00:50:47Z" finished-at="2020-04-06T00:50:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateclickOnDealsLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.classicCrm.qa.test.HomePageClassicCrmTest@23ceabc1]" name="tearDown" is-config="true" duration-ms="673" started-at="2020-04-06T00:50:47Z" finished-at="2020-04-06T00:50:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.classicCrm.qa.test.HomePageClassicCrmTest@23ceabc1]" name="setUp" is-config="true" duration-ms="18576" started-at="2020-04-06T00:50:48Z" finished-at="2020-04-06T00:51:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateclickOnTasksLink()[pri:5, instance:com.classicCrm.qa.test.HomePageClassicCrmTest@23ceabc1]" name="validateclickOnTasksLink" duration-ms="51" started-at="2020-04-06T00:51:06Z" finished-at="2020-04-06T00:51:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateclickOnTasksLink -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.classicCrm.qa.test.HomePageClassicCrmTest@23ceabc1]" name="tearDown" is-config="true" duration-ms="660" started-at="2020-04-06T00:51:06Z" finished-at="2020-04-06T00:51:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.classicCrm.qa.test.HomePageClassicCrmTest -->
+      <class name="com.classicCrm.qa.test.ContactsPageClassicCrmTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.classicCrm.qa.test.ContactsPageClassicCrmTest@5d5eef3d]" name="setUp" is-config="true" duration-ms="19285" started-at="2020-04-06T00:51:07Z" finished-at="2020-04-06T00:51:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateContactsTableHeadingTest()[pri:1, instance:com.classicCrm.qa.test.ContactsPageClassicCrmTest@5d5eef3d]" name="validateContactsTableHeadingTest" duration-ms="86" started-at="2020-04-06T00:51:26Z" finished-at="2020-04-06T00:51:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateContactsTableHeadingTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.classicCrm.qa.test.ContactsPageClassicCrmTest@5d5eef3d]" name="tearDown" is-config="true" duration-ms="691" started-at="2020-04-06T00:51:26Z" finished-at="2020-04-06T00:51:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.classicCrm.qa.test.ContactsPageClassicCrmTest@5d5eef3d]" name="setUp" is-config="true" duration-ms="19813" started-at="2020-04-06T00:51:27Z" finished-at="2020-04-06T00:51:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="selectContactByNameTest()[pri:2, instance:com.classicCrm.qa.test.ContactsPageClassicCrmTest@5d5eef3d]" name="selectContactByNameTest" duration-ms="286" started-at="2020-04-06T00:51:47Z" finished-at="2020-04-06T00:51:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectContactByNameTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.classicCrm.qa.test.ContactsPageClassicCrmTest@5d5eef3d]" name="tearDown" is-config="true" duration-ms="680" started-at="2020-04-06T00:51:47Z" finished-at="2020-04-06T00:51:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.classicCrm.qa.test.ContactsPageClassicCrmTest@5d5eef3d]" name="setUp" is-config="true" duration-ms="20819" started-at="2020-04-06T00:51:48Z" finished-at="2020-04-06T00:52:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="selectMultipleContactsByNameTest()[pri:3, instance:com.classicCrm.qa.test.ContactsPageClassicCrmTest@5d5eef3d]" name="selectMultipleContactsByNameTest" duration-ms="20735" started-at="2020-04-06T00:52:09Z" finished-at="2020-04-06T00:52:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectMultipleContactsByNameTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.classicCrm.qa.test.ContactsPageClassicCrmTest@5d5eef3d]" name="tearDown" is-config="true" duration-ms="657" started-at="2020-04-06T00:52:29Z" finished-at="2020-04-06T00:52:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.classicCrm.qa.test.ContactsPageClassicCrmTest -->
+      <class name="com.classicCrm.qa.test.LoginPageClassicCrmTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.classicCrm.qa.test.LoginPageClassicCrmTest@5dfcfece]" name="setUp" is-config="true" duration-ms="15413" started-at="2020-04-06T00:48:52Z" finished-at="2020-04-06T00:49:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateLoginPageLinksTest()[pri:1, instance:com.classicCrm.qa.test.LoginPageClassicCrmTest@5dfcfece]" name="validateLoginPageLinksTest" duration-ms="917" started-at="2020-04-06T00:49:08Z" finished-at="2020-04-06T00:49:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginPageLinksTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.classicCrm.qa.test.LoginPageClassicCrmTest@5dfcfece]" name="tearDown" is-config="true" duration-ms="667" started-at="2020-04-06T00:49:08Z" finished-at="2020-04-06T00:49:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.classicCrm.qa.test.LoginPageClassicCrmTest@5dfcfece]" name="setUp" is-config="true" duration-ms="8393" started-at="2020-04-06T00:49:09Z" finished-at="2020-04-06T00:49:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateLoginPageTitleTest()[pri:2, instance:com.classicCrm.qa.test.LoginPageClassicCrmTest@5dfcfece]" name="validateLoginPageTitleTest" duration-ms="35" started-at="2020-04-06T00:49:18Z" finished-at="2020-04-06T00:49:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.classicCrm.qa.test.LoginPageClassicCrmTest@5dfcfece]" name="tearDown" is-config="true" duration-ms="632" started-at="2020-04-06T00:49:18Z" finished-at="2020-04-06T00:49:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.classicCrm.qa.test.LoginPageClassicCrmTest@5dfcfece]" name="setUp" is-config="true" duration-ms="7987" started-at="2020-04-06T00:49:18Z" finished-at="2020-04-06T00:49:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateLoginFunctionalityTest()[pri:3, instance:com.classicCrm.qa.test.LoginPageClassicCrmTest@5dfcfece]" name="validateLoginFunctionalityTest" duration-ms="9854" started-at="2020-04-06T00:49:26Z" finished-at="2020-04-06T00:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginFunctionalityTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.classicCrm.qa.test.LoginPageClassicCrmTest@5dfcfece]" name="tearDown" is-config="true" duration-ms="662" started-at="2020-04-06T00:49:36Z" finished-at="2020-04-06T00:49:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.classicCrm.qa.test.LoginPageClassicCrmTest -->
+      <class name="com.classicCrm.qa.test.CreatedDealVerificationPageClassicCrmTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.classicCrm.qa.test.CreatedDealVerificationPageClassicCrmTest@3a82f6ef]" name="setUp" is-config="true" duration-ms="21182" started-at="2020-04-06T00:54:16Z" finished-at="2020-04-06T00:54:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createdDealNumberMatchTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.classicCrm.qa.test.CreatedDealVerificationPageClassicCrmTest@3a82f6ef]" name="createdDealNumberMatchTest" duration-ms="4651" started-at="2020-04-06T00:54:37Z" data-provider="getdealTestData" finished-at="2020-04-06T00:54:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Consumer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CTS]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Manager]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[mess]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Led]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[New]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Online]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[human]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[mail]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[validation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createdDealNumberMatchTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.classicCrm.qa.test.CreatedDealVerificationPageClassicCrmTest@3a82f6ef]" name="tearDown" is-config="true" duration-ms="710" started-at="2020-04-06T00:54:42Z" finished-at="2020-04-06T00:54:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.classicCrm.qa.test.CreatedDealVerificationPageClassicCrmTest@3a82f6ef]" name="setUp" is-config="true" duration-ms="21363" started-at="2020-04-06T00:54:43Z" finished-at="2020-04-06T00:55:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createdDealNumberMatchTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.classicCrm.qa.test.CreatedDealVerificationPageClassicCrmTest@3a82f6ef]" name="createdDealNumberMatchTest" duration-ms="4221" started-at="2020-04-06T00:55:04Z" data-provider="getdealTestData" finished-at="2020-04-06T00:55:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Client]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TCS]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SA]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[85]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[hostel]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[pants]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Old]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Partner]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[devil]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[post]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[verification]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createdDealNumberMatchTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.classicCrm.qa.test.CreatedDealVerificationPageClassicCrmTest@3a82f6ef]" name="tearDown" is-config="true" duration-ms="662" started-at="2020-04-06T00:55:08Z" finished-at="2020-04-06T00:55:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.classicCrm.qa.test.CreatedDealVerificationPageClassicCrmTest@3a82f6ef]" name="setUp" is-config="true" duration-ms="22597" started-at="2020-04-06T00:55:09Z" finished-at="2020-04-06T00:55:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateHeaderLinksPresentTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.classicCrm.qa.test.CreatedDealVerificationPageClassicCrmTest@3a82f6ef]" name="validateHeaderLinksPresentTest" duration-ms="5842" started-at="2020-04-06T00:55:32Z" data-provider="getdealTestData" finished-at="2020-04-06T00:55:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Consumer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CTS]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Manager]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[mess]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Led]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[New]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Online]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[human]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[mail]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[validation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeaderLinksPresentTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.classicCrm.qa.test.CreatedDealVerificationPageClassicCrmTest@3a82f6ef]" name="tearDown" is-config="true" duration-ms="675" started-at="2020-04-06T00:55:37Z" finished-at="2020-04-06T00:55:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.classicCrm.qa.test.CreatedDealVerificationPageClassicCrmTest@3a82f6ef]" name="setUp" is-config="true" duration-ms="20415" started-at="2020-04-06T00:55:38Z" finished-at="2020-04-06T00:55:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateHeaderLinksPresentTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.classicCrm.qa.test.CreatedDealVerificationPageClassicCrmTest@3a82f6ef]" name="validateHeaderLinksPresentTest" duration-ms="5516" started-at="2020-04-06T00:55:58Z" data-provider="getdealTestData" finished-at="2020-04-06T00:56:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Client]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TCS]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SA]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[85]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[hostel]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[pants]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Old]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Partner]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[devil]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[post]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[verification]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeaderLinksPresentTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.classicCrm.qa.test.CreatedDealVerificationPageClassicCrmTest@3a82f6ef]" name="tearDown" is-config="true" duration-ms="753" started-at="2020-04-06T00:56:04Z" finished-at="2020-04-06T00:56:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.classicCrm.qa.test.CreatedDealVerificationPageClassicCrmTest -->
+      <class name="com.classicCrm.qa.test.CreateNewContactPageClassicCrmTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.classicCrm.qa.test.CreateNewContactPageClassicCrmTest@56f4468b]" name="setUp" is-config="true" duration-ms="24809" started-at="2020-04-06T00:52:30Z" finished-at="2020-04-06T00:52:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewContactTest()[pri:0, instance:com.classicCrm.qa.test.CreateNewContactPageClassicCrmTest@56f4468b]" name="createNewContactTest" duration-ms="7921" started-at="2020-04-06T00:52:55Z" finished-at="2020-04-06T00:53:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewContactTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.classicCrm.qa.test.CreateNewContactPageClassicCrmTest@56f4468b]" name="tearDown" is-config="true" duration-ms="728" started-at="2020-04-06T00:53:03Z" finished-at="2020-04-06T00:53:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.classicCrm.qa.test.CreateNewContactPageClassicCrmTest -->
+    </test> <!-- ClassicCRM application test cases -->
+  </suite> <!-- Classic CRM application test suite -->
+</testng-results>

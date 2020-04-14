@@ -19,6 +19,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
+import org.testng.annotations.Parameters;
 import org.testng.asserts.SoftAssert;
 
 import com.classicCrm.qa.listeners.WebEventListener;
@@ -62,6 +63,7 @@ public class TestCrmBase
 			e.printStackTrace();
 		}
 	}
+	
 	
 	public static void browserInitialization()
 	{	

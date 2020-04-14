@@ -1,0 +1,4 @@
+# Created at 2020-04-06T00:48:51.613
+Boot Manifest-JAR contains absolute paths in classpath 'F:\Sep2019\classicCrmPro\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
