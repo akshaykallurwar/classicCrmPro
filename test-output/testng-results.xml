@@ -2,180 +2,230 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="46068" started-at="2020-04-05T16:59:47Z" finished-at="2020-04-05T17:00:33Z">
+  <suite name="Default suite" duration-ms="61846" started-at="2020-04-20T08:15:13Z" finished-at="2020-04-20T08:16:15Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="46068" started-at="2020-04-05T16:59:47Z" finished-at="2020-04-05T17:00:33Z">
-      <class name="com.classicCrm.qa.test.CreateNewDealsPageClassicCrmTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.classicCrm.qa.test.CreateNewDealsPageClassicCrmTest@754ba872]" name="setUp" is-config="true" duration-ms="19398" started-at="2020-04-05T22:29:47Z" finished-at="2020-04-05T22:30:07Z">
+    <test name="Default test" duration-ms="61846" started-at="2020-04-20T08:15:13Z" finished-at="2020-04-20T08:16:15Z">
+      <class name="com.classicCrm.qa.test.CreateNewCallPageClassicCrmTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.classicCrm.qa.test.CreateNewCallPageClassicCrmTest@77cd7a0]" name="setUp" is-config="true" duration-ms="24926" started-at="2020-04-20T13:45:14Z" finished-at="2020-04-20T13:45:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateCreateNewDealTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.classicCrm.qa.test.CreateNewDealsPageClassicCrmTest@754ba872]" name="validateCreateNewDealTest" duration-ms="3629" started-at="2020-04-05T22:30:07Z" data-provider="getCreateNewDealTestData" finished-at="2020-04-05T22:30:10Z">
+        <test-method status="PASS" signature="createNewCallValidation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.classicCrm.qa.test.CreateNewCallPageClassicCrmTest@77cd7a0]" name="createNewCallValidation" duration-ms="5222" started-at="2020-04-20T13:45:39Z" data-provider="getCreateNewCallDataProvider" finished-at="2020-04-20T13:45:44Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Consumer]]>
+                <![CDATA[60]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[CTS]]>
+                <![CDATA[S]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[Manager]]>
+                <![CDATA[test1]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[10]]>
+                <![CDATA[EXISTS]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[80]]>
+                <![CDATA[contactOne]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[20]]>
+                <![CDATA[companyOne]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[mess]]>
+                <![CDATA[Call Back]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[Led]]>
+                <![CDATA[5]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[10]]>
+                <![CDATA[TimeOne]]>
               </value>
             </param>
             <param index="9">
               <value>
-                <![CDATA[New]]>
+                <![CDATA[Y]]>
               </value>
             </param>
             <param index="10">
               <value>
-                <![CDATA[Online]]>
+                <![CDATA[dealOne]]>
               </value>
             </param>
             <param index="11">
               <value>
-                <![CDATA[human]]>
+                <![CDATA[taskOne]]>
               </value>
             </param>
             <param index="12">
               <value>
-                <![CDATA[mail]]>
+                <![CDATA[caseOne]]>
               </value>
             </param>
             <param index="13">
               <value>
-                <![CDATA[validation]]>
+                <![CDATA[notesOne]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[keywordOne]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Left Message]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[433680]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[start_time]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[closed]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateCreateNewDealTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.classicCrm.qa.test.CreateNewDealsPageClassicCrmTest@754ba872]" name="tearDown" is-config="true" duration-ms="683" started-at="2020-04-05T22:30:10Z" finished-at="2020-04-05T22:30:11Z">
+        </test-method> <!-- createNewCallValidation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.classicCrm.qa.test.CreateNewCallPageClassicCrmTest@77cd7a0]" name="tearDown" is-config="true" duration-ms="657" started-at="2020-04-20T13:45:44Z" finished-at="2020-04-20T13:45:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.classicCrm.qa.test.CreateNewDealsPageClassicCrmTest@754ba872]" name="setUp" is-config="true" duration-ms="17066" started-at="2020-04-05T22:30:11Z" finished-at="2020-04-05T22:30:28Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.classicCrm.qa.test.CreateNewCallPageClassicCrmTest@77cd7a0]" name="setUp" is-config="true" duration-ms="25036" started-at="2020-04-20T13:45:45Z" finished-at="2020-04-20T13:46:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateCreateNewDealTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.classicCrm.qa.test.CreateNewDealsPageClassicCrmTest@754ba872]" name="validateCreateNewDealTest" duration-ms="3900" started-at="2020-04-05T22:30:28Z" data-provider="getCreateNewDealTestData" finished-at="2020-04-05T22:30:32Z">
+        <test-method status="PASS" signature="createNewCallValidation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.classicCrm.qa.test.CreateNewCallPageClassicCrmTest@77cd7a0]" name="createNewCallValidation" duration-ms="4530" started-at="2020-04-20T13:46:10Z" data-provider="getCreateNewCallDataProvider" finished-at="2020-04-20T13:46:14Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Client]]>
+                <![CDATA[60]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[TCS]]>
+                <![CDATA[S]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[SA]]>
+                <![CDATA[test2]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[10]]>
+                <![CDATA[EXISTS]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[85]]>
+                <![CDATA[contactTwo]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[20]]>
+                <![CDATA[companyTwo]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[hostel]]>
+                <![CDATA[Call Back]]>
               </value>
             </param>
             <param index="7">
               <value>
-                <![CDATA[pants]]>
+                <![CDATA[5]]>
               </value>
             </param>
             <param index="8">
               <value>
-                <![CDATA[15]]>
+                <![CDATA[TimeTwo]]>
               </value>
             </param>
             <param index="9">
               <value>
-                <![CDATA[Old]]>
+                <![CDATA[Y]]>
               </value>
             </param>
             <param index="10">
               <value>
-                <![CDATA[Partner]]>
+                <![CDATA[dealTwo]]>
               </value>
             </param>
             <param index="11">
               <value>
-                <![CDATA[devil]]>
+                <![CDATA[taskTwo]]>
               </value>
             </param>
             <param index="12">
               <value>
-                <![CDATA[post]]>
+                <![CDATA[caseTwo]]>
               </value>
             </param>
             <param index="13">
               <value>
-                <![CDATA[verification]]>
+                <![CDATA[notesTwo]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[keywordTwo]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Left Message]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[433680]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[start_time]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[closed]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateCreateNewDealTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.classicCrm.qa.test.CreateNewDealsPageClassicCrmTest@754ba872]" name="tearDown" is-config="true" duration-ms="664" started-at="2020-04-05T22:30:32Z" finished-at="2020-04-05T22:30:33Z">
+        </test-method> <!-- createNewCallValidation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.classicCrm.qa.test.CreateNewCallPageClassicCrmTest@77cd7a0]" name="tearDown" is-config="true" duration-ms="661" started-at="2020-04-20T13:46:14Z" finished-at="2020-04-20T13:46:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.classicCrm.qa.test.CreateNewDealsPageClassicCrmTest -->
+      </class> <!-- com.classicCrm.qa.test.CreateNewCallPageClassicCrmTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

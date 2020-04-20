@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.poi.ss.usermodel.Cell;
@@ -13,6 +14,7 @@ import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.Alert;
+import org.openqa.selenium.ElementNotInteractableException;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.OutputType;
@@ -22,7 +24,9 @@ import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.classicCrm.qa.base.TestCrmBase;
@@ -38,6 +42,7 @@ public class TestUtil extends TestCrmBase
 	public static XSSFSheet sheet;
 	public static XSSFCell cell;
 	public static DataFormatter formatter;
+	public static Wait wait;
 	
 	public static void switchToFrame()
 	{
@@ -62,6 +67,11 @@ public class TestUtil extends TestCrmBase
 		}	
 	}
 	
+	public static void fluentWaitForNoSuchElementException(WebDriver driver)
+	{
+		wait = new FluentWait(driver).withTimeout(10, TimeUnit.SECONDS).
+				pollingEvery(2,TimeUnit.SECONDS).ignoring(NoSuchElementException.class);
+	}
 	
 	
 	/*Wait wait = new FluentWait(WebDriver reference)
@@ -98,6 +108,13 @@ public class TestUtil extends TestCrmBase
 	{
 		webDriverWait = new WebDriverWait(driver, EXPLICIT_WAIT);
 		webDriverWait.ignoring(NoSuchElementException.class).until(ExpectedConditions.elementToBeClickable(element));
+	}
+	
+	public static WebElement explicitWaitForElementNotInteractableException(WebElement element)
+	{
+		webDriverWait = new WebDriverWait(driver, EXPLICIT_WAIT);
+		webDriverWait.ignoring(ElementNotInteractableException.class).until(ExpectedConditions.elementToBeClickable(element));
+		return element;
 	}
 	
 	public static void selectByValueFromDropDown(WebElement dropDown,String value)
@@ -391,11 +408,6 @@ public class TestUtil extends TestCrmBase
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		js.executeScript("arguments[0].scrollIntoView(true);", element);
 	}
-	
-	
-	
-	
-	
 	
 	
 	}
